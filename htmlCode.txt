@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shehab Enani - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Shehab Enani
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          shehabenani00@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +201277373686
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class ="topmenu" href="#skills"> Skills </a>
+          <a class ="topmenu" href="#projects"> Projects </a>
+          <a class ="topmenu" href="#recommendations">Recommendations </a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://scontent.fcai19-7.fna.fbcdn.net/v/t39.30808-6/383782458_6573512836065736_8802205345121696056_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=83pS1v_p1dwAX-rSEwM&_nc_ht=scontent.fcai19-7.fna&oh=00_AfDI9wAMke3pPHOANxQz0a3uK2vR7Blnw5iTDYCpye8kiA&oe=652859D7"  class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Shehab Enani! 
+          </h1>
+          <p>
+            I am a third-year software engineering student at Cairo University with experience in diverse projects, including a database bank system.
+            I am dedicated to becoming an expert in the field, continuously developing my skills and knowledge.
+            My goal is to excel in programming, problem-solving, and collaboration, staying updated with the latest industry trends.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="https://th.bing.com/th/id/OIP._Mq1T1IJe6cw14lre2cBzgHaE8?w=300&h=200&c=7&r=0&o=5&pid=1.7"/>
+          <h6>C++</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>.5 years experience</p>
+        </div>  
+         
+        <div class="skill">
+            <img src="https://th.bing.com/th/id/OIP.EDJ9xoErBbZqK2tExVoJfAHaHY?w=221&h=220&c=7&r=0&o=5&pid=1.7"/>
+            <h6>Python</h6>
+            <p>1.5 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAsJCQcJCQcJCQkJCwkJCQkJCQsJCwsMCwsLDA0QDBEODQ4MEhkSJRodJR0ZHxwpKRYlNzU2GioyPi0pMBk7IRP/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCAC0AKIDASIAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAUGAQMEAgf/xABHEAABBAECAwQFBwgGCwAAAAABAAIDBBEFEgYhMRNBUXEiYYGRoRQjMjNCscEVFlJTY3JzsmJ0kqLC0SQ1VFVkgoOT0uHx/8QAGgEBAAIDAQAAAAAAAAAAAAAAAAIDAQQFBv/EAC8RAAIBAwICBwkBAQAAAAAAAAABAgMEESExEhMFQVFhcYGRFCIyNEJSobHwweH/2gAMAwEAAhEDEQA/APraIiAIiIAiIgCIiAIiIAiLlktCK5SrPxi3HYMR7+0h2uLT5gkjy9ajKSisslGLk8I6kRFIiEREAREQBERAEREAREQBERAEREAREQBERAFXtRm7XiDh6rGcurGaeXH2Q9hOD7B8V36rqtfTIS5xD7Dwewhzzcem53g0d6i+G6diWSzrNskzWtzYC4YJY45dJjwOAG+oetcu6q82rG2p75Tfclr+TpW1Ll05XM9sNLvbWPxqWZERdQ5oREQBERAEREAREQBERAEREAREQBERAFBaxr8Gnh8FfbLcAw4E5jh9chHf6vfjvxxDq76ETK9d2LVhpduHWKLO3cPWeg8j4c4rh7RW28ajdbuh3k14n8xK4HnLJnqM9B39fPjXV3UnV9ltvi632f8ATr2tpThS9qufh6l2mNL0e3q035R1QyGB5DwJch9nw5d0fh493LrYb2sabp22FxMk/osjrVmh0mTya0gch6h8FHcQa1JUPyGmSLDmgzSNGXRtf9Fkf9I/DPict6NE0SOi1tmyBJqEgLnucd3Y7uZYwnv/AEj3+Sqt1ypu3ttZfVJ9v+suuHzYK4udI/TFf2i7/wDh0Vxrd3EtotoVzzbWgw+y4ftpnDA8mtB9YUmBgAdwGBnJ+JWUXap0+BavL7WcapPjeiwuxf37CIisKwiIgCIiAIiIAsrCIDKLCIAiIgCIiAovFkcjNQEhztlqx9mfDYXNIHl19qulZkUVetHHjs44YmMx02taAFxazpjNTqGMYE8eX13HoHYwWu9R6H39y0aBdfNWNKwHMuafiCZj+Tiwei134Hy9a41Cl7Pez4tp6p+G6OvWqe0WcFHeGjXjs/8ACpXpXRazbmkBcYdSdKW+LY5dwHuAwvokUsU0cU0Tg6OVrZGOB5FrhkFVLijTHtk/KULSY3hrbQH2Hj0Wv8jyB/8Aa98KX5S+bTnkmNsbrEGfsYcA9vlzBHt8Vo2VSVpeTt6n1vKf9/ZN28hG7s4V6f0rDX9/YLaiIvTnmwiIgMosIgMosIgCIiAIiIAiIgCIiALTPaqVWh1mxBA09DPIyMHy3kKr6/Z4ubNNHVgnjojHZy0WmSSQYHN7mfOA+oAeZXBpWp6Dp7WvvaZb/KHWW3PH20jnd5aZyHNHqA96vVFuPEa8q6UuHbxLvBZr2Wl8EgkYPtNDtp8iRgrku0C+aHUKm1l+AYyeTLMX2oZcePce4qOHGPDvfLOPUYT+BQ8Y8O9z7Dv3Yf8AMqmpbuosOJdTuY03lSRMXHwCjbfZ9GH5NK6UPwMNLDkHuyoLhfS5q4k1Cw1zHzxiKvG8YcIiQ4vcD+lgY9Q9aScU6JY2NFHUrAa8PaxtYOYXjm0kb8cuo5fct7df1SYgVeHdSfno6wW12+0vC1p2LqVo1pr4djYp3yp0ZUoP4t/LsLAuOzqVSq57XizI9gBe2tVsT7QefpGJhaPetFR/EVh+65DSpQgjEcbnWZ3eb8tjHucpNbWMPU18trQj6Os6RqDjHVstdKASYntfHLy64bIATjvwpBUjjGKKnZ0+/WPZWpBNI90fonfAWOZJy7+eCrlXe+WCvK8YfJDFI4eDnNDiFOcEkpLrIQm3JxlujaiIqi0IiIAiIgCIiAIiIAiIgCgdS4hrUr0Wnho3l8XyqeYHsa7HgOztHpOOPIDPXlhTyj7+j6VqWHW67XSBu1srC6OVo8N7MHHmpwcU/eITUse7ubGW9Im+hZoyZGcNlhd+K3h1XGWuh8wWfgqu7g7SZ29pVv2NhJwfmJmcuRwQ0fetf5js/wB5Ox/VWZ/nVnDT+78FXFU+38lqfcoRfWW60Y/pzRt+8rim4h4fh5OvwuP7EPm+MYIUNHwRSB+cv2XDv7OOBnxIcu6HhHh+I5fHPOf+Inft/sx7R8FjFJdbY4qr2SRORTQzxslhkZJG8Za+Nwc0j1ELRev0tOgfZtytjjbyGSN0ju5kbepJXuvTp04jFUghrsOSRCxrQXYxuOBzPmtDNKoNnFqVhsWx9Ge27tXsGc4jB9Bo/daFWsZ7i58WO8rcGn3+I9QbqWowvr6bHt+TwSAiSaNp3NbtPMNPVxPXoOXMXJEWZzcvAjCCj4sIiKBYEREAREQBERAEREARF8/4h1PXXWrFedtirTZI5kbI98bJowcbnTN65HPry8OXOynTc3hFVSoqayy6zalpdd5jnu1Y5Qcdm6Vnaf2Ad3wXPq1WXVtNkhp2RGZSx7XekGStaecb8c8Hy/yMLpPEHCdaNscNb5CcemRH2u4+LpY8vPmQpyPXNBlxt1Grz/WP7M+6TCy4Sg8pMipxmtWioNfxto8ba7Y7IgiGGCOFlqENHc1zWucB7l5/OziJnJ7Ycj9ZVkafdkK8DUdKd9G/SPlYhP3OXr5bp/8AtlX/AL8X/krOavqgV8pr4ZlE/OTiqwdsIdk8v9GpF5+LXLs088fyTiYCUNJAeNTLGQEZz9UPTHsaFbTqGlt+lept87EQ/wAS1P1jQ4/pajS/5Z43H+6SnMysRgFTw8ymdkXb9nH2/Z9ttHadlu7Pd37d3PC9qGk4o4bZyF5sju5sMU0jj5bWrDdat2sDTtHvy56S3A2lX890mXn2MVPLl1ov5kdkyaz19yKKrtk05l/UNWuQiSw6J8oj3MqwNjbsbHCHekXHvPU8uXLClGu3tY7BG5odhww4ZGcEeKi1gmnkyiIsGQiIgCIiAIiIAiIgCEA5B5jwKLltX6FIxi1YjiMgcWB+fSDcA4wFGU4wXFJ4RKMXJ4issxNp2lz7jLRpyuP6yGMknz25UNNpOkNLu14akcP0qEsRb7B2sb/7qsMUsU8ccsTg+ORrXsc3o5rhkEL2rI1HjKZVKmnuinO07hME9po2txf9DUHD2GNzgtZpcCt+lW1Zv70Gqj/CrqisVV9/qVOiuxehShDwIw8qGpyHny7DVDn34W2N3CjD8xwzqUx7s6fK8H2zuVwROb4+pnk+HoVuLUNQZlun8JzRdwdKa1Qe0AZ+K9444t9XaZpzOmW7rMwHtyz4qw4RR4+xEuW+tkNU0GCOaO3es2NRuRHdFJbdmOF3jDCPRB8OqmURQcnLcnGKjsERFgkEREAREQBERAEREAVQ4w+t0z+HY/mYreqhxh9bpn8Ox/Mxcjpn5Ofl+0dToj5uHn+mWHSP9V6T/U6/8gW6W7p8Di2a3WjcOrZJo2u9xOVw1azrmgU6zZXRGbT67BI3JLDtac4BH3rij4S0prfnJ7cju8h8bBn1BrfxVqqV404KjBPRat4IcFCVSbrTa1eiWSehs1LAJgsQygdexka/HntKzJYrRECWaKMkZAke1pI8QHFULUqsug6hC+rO84Y2xC52A/buILH7cAjlz81NcU1xPRpXQ0ZieGu5dI52g8/Ige9a8ekanLqOUPehusl76PhzKfDPMJ7PGpZmua5rXNcHNcAWuacgg9CCF4knrQkCWaKMkEgSPawkDvG4qI4ZtdvpkcROX1Hvrn9z6bPgcexQPFLzPqkddgy5kEMDR1+cmcXfiFdW6QVO1jcRWc408SqjYOpdO3k8YzqXgOY5oe1zSwt3BwILS3rkHphcz9R0th2vvVGuHUGeMEeYyuW/pDb1SnTFh8Mdcxg7BncxjNm3aTjwPQ9Fw/mlpAaR21zdj6XaR8j+6GYVtWrdJ4pQT72yqlTtms1ZtdyRPMmgkYZY5Y3xgEl7HtczlzPpA4XpkkUmdj2PxjOxwdjPkqJp3b6ZrjaQeXRvsmnO3oyVjx6Li3pnof8A6rxDXrwdp2MTI+0dvk2ADc7GMlYsruVzFtxw08MzeWqtpJKWU1lPuNqIi6BoBERAEREAREQBERAFUOMPrdM/h2P5mK3qn8Xkdtpo8IZz73NXI6Z+Tl5ftHV6I+bh5/pktFfi03QNNsyAuIqVWRMBwZJHMGG595PkoutNxbrLXTw2Yqtbe5rCBsBI5EMw1zzjpklbNQqz2OG9IMTHPdXhqzPY0EuMfYlpIA58s5XJpHEdWhSbVsRSO7J0hidCY8EPcX4cHEdMlaFWvirClWk4w4U9NMvxN6nRzSnVowUp8TWuuF4EfrlXUassTL1v5TK6u57H5edrNzht9PmrvYrC5pklY9ZajWs9TwwOafeAqRrdu5fMN6et8ngkjkhqB2cvaz0i7LsE9euAPdk/QIPqK+P1UX8oU+jYwlWrRjnheN+zzI9IynCjRlLHEs7dunYU7hSyYr09Vxw2zCSAe6SEk/cXe5eKA/KnEZn6xsnluZ/ZxejFn+6uXVmv0zWLhicGEufLEcgYZZY4HHvcFPcJ0+zqz3XD0rTxHEf2MRIyPM59wWhaRnUqQs5bQk2/Lb859TeupQp053kd5xSXi9/xj0O3W9YGlRRtjY19mYOMYfnYxjer345+oD/LnGQ1uMdQjZYffbVZK0PYz6L9hGQS2JvL2uytfF1WYyVbYa4wdi6CRwGRG4OLgXeefgtkPFtZtaFjqsr7TWMj2xuZ2b3ABuQQS7n4bSt6tXjK6nTuZuMVjCWVn03NGjQlG1hUtoKUnnLeHj12ImKKxDxDUisTdtOy/A2SXJO84Bz6XNfQV8/jdbfxBp8tyIQ2LFutYMXQta/6Po5J6DvX0BXdDJJVMbcXXuVdL5zSz9vVsERF3jhhERAEREAREQBERAa5pWQRTTPDyyJjpHBjS92GjJw1vNUSd93iXUsQRlsQa2Ld1bXgySXPcOW45JA/AZV/WuKGCBuyGKONmS7bG0Nbk8ycNXPvLR3XDGUsRW67fM37O7VrxTUcy6n2eRmKNkUcUTBhkTGRsHg1oDQvBqUy/tDXgMmc7zFHuz45xlbkW9wRaw0aPE1rk8uYx+NzWux03NBx716xhEWcGDyY4nHLmMcemXNBPxWQA0AAAAcgAAAPYFlEwtzOWYIBBB5gjBB5grUyrUicXx14GPP2mRMa73gZW5FhxTeWgm1ojyY4y4OLGlw6EtGR7V6RFnBgIiLICIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiA/9k=">
+            <h6>Java</h6>
+            <p>1 years experience</p>
+          </div>  
+  
+          <div class="skill">
+            <img src="https://th.bing.com/th/id/OIP.32xiY8nsdkuBun--GGopPgHaGm?w=235&h=211&c=7&r=0&o=5&pid=1.7"/>
+            <h6>DataBase</h6>
+            <p>1 years experience</p>
+          </div> 
+
+          <div class="all_skills">
+            <div class="skill">
+              <img src="html_finalprojimages/html5.png"/>
+              <h6>HTML</h6>
+              <p>.5 years experience</p>
+            </div>
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>DataBase Bank System</h3>
+            <ul>
+              <li>Developed a secure DataBase that holds all the information of the bank customers and there transactions and loans </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Gym System</h3>
+            <ul>
+              <li>Developed a gym system giving a prototypes and predticting all the phases that system will do , also define how to integrate between jira and trello to the system </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Fashion Website</h3>
+            <ul>
+              <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using stripe for payment gateway</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Shehab is a very quick learner and quickly grasps key concepts of Web development. 
+          He got a great attitude & he is an excellent team player. 
+          He has a curious mind and asks the right question. 
+          He takes initiative within a team and has potentials to lead the team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Shehab has been an awesome experience. 
+          He is highly knowledgable and always goes the extra step to make sure everything is right. 
+          For any future projects that need his expertise I would definitely want to work with him again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with Shehab during the initial phase of our venture which needed Web development. 
+          He is a committed resource who has in depth knowledge about the domain. 
+          He will be an asset for any organisation! 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
